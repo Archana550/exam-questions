@@ -12,7 +12,9 @@ Last line contains two space separated integers denoting starting page and endin
 Print the minimum number of clicks required to open the end page from the start page. If not possible print -1 as output.
 
 ### Example 1
-- Input
+```
+// Input
+
 5
 2 4
 1 
@@ -21,25 +23,29 @@ Print the minimum number of clicks required to open the end page from the start 
 5 
 2 3
 
-- Output
+//Output
 
 3
-
+```
 ### Example 2
--Input
+```
+// Input
 3
 2
 1
 1
 2 3
 
--Output
+// Output
 
 -1
 
-### Explanation:
+Explanation:
 First line conveys that there is total 3 pages.
 Second line conveys that there are links from page 1 to page 2.
 Third line conveys that there is a link from page 2 to page 1.
 Fourth line conveys that there are links from page 3 to page 1.
 Since there is no such way to reach from page 2 to page 3, print -1 as output.
+```
+
+
